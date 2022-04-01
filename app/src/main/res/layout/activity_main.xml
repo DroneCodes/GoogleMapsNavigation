@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/darker_gray"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="@color/black"
+       android:text="Map Guide"
+       android:layout_marginBottom="10dp"
+       android:gravity="center_horizontal"
+       android:textSize="30dp"/>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:hint="Enter Your Location"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_arrow_downward_24"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/destination"
+            android:hint="Enter Your Destination"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/track"
+            android:text="Display Track"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
